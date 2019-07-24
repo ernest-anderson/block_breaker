@@ -34,8 +34,12 @@ public class GameStatus : MonoBehaviour
         Time.timeScale = gameSpeed;        
     }
 
-    public void addScore() {
+    public void AddScore() {
         currentScore += scoreEachBlock;
         textScore.text = "Score " + currentScore;
+    }
+
+    public void ResetGame() {
+        Destroy(gameObject);
     }
 }
