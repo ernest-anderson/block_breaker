@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8967844518611730748}
   - component: {fileID: 8967844518611730749}
   m_Layer: 0
-  m_Name: Unbreakable Block
-  m_TagString: Unbreakable
+  m_Name: Breakable Block-2
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,5 +121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 425d1c9970efde8448b2c81f4702896b, type: 3}
   blockSparklesVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
-  unbreakableBlock: {fileID: 5154294869970393113, guid: 62b0dceaf62a15d4aae312d67a12629d,
-    type: 3}
+  maxHits: 3
+  timesHit: 0
+  hitSprites:
+  - {fileID: 21300000, guid: 086c08c41c6cbfc4cb9086903c1b1ca4, type: 3}
+  - {fileID: 21300000, guid: adad209d82ef1ec43ba8b37ddfc57a93, type: 3}
