@@ -6,8 +6,7 @@ using UnityEngine;
 public class Block : MonoBehaviour
 {
     [SerializeField] AudioClip clip;
-    [SerializeField] GameObject blockSparklesVFX;    
-    [SerializeField] int maxHits;
+    [SerializeField] GameObject blockSparklesVFX;
     [SerializeField] int timesHit;
     [SerializeField] Sprite[] hitSprites;
 
@@ -32,6 +31,7 @@ public class Block : MonoBehaviour
         if (tag == "Breakable")
         {
             timesHit++;
+            int maxHits = hitSprites.Length + 1;
             if (maxHits <= timesHit)
             {
                 Destroy(gameObject);
