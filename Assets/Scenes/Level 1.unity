@@ -2094,6 +2094,11 @@ PrefabInstance:
       propertyPath: destinationBlackhole
       value: 
       objectReference: {fileID: 7658461064261358237}
+    - target: {fileID: 7658461064261358237, guid: 69e7b638281e197488f873c71f92140c,
+        type: 3}
+      propertyPath: blackhole
+      value: 
+      objectReference: {fileID: 7658461064261358237}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69e7b638281e197488f873c71f92140c, type: 3}
 --- !u!4 &1225032549 stripped
@@ -3558,6 +3563,11 @@ PrefabInstance:
       propertyPath: destinationBlackhole
       value: 
       objectReference: {fileID: 1767078183}
+    - target: {fileID: 7658461064261358237, guid: 69e7b638281e197488f873c71f92140c,
+        type: 3}
+      propertyPath: blackhole
+      value: 
+      objectReference: {fileID: 1767078183}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69e7b638281e197488f873c71f92140c, type: 3}
 --- !u!1001 &7132276310547462386
@@ -3707,6 +3717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7909335844410794898, guid: 30f0c9881a99c1c4c9b6d8c2fbba6388,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30f0c9881a99c1c4c9b6d8c2fbba6388, type: 3}
