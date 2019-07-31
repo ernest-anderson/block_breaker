@@ -730,6 +730,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1001077814907650496, guid: 4ce25f253c3502541950874921f3672e,
+        type: 3}
+      propertyPath: isAutoPlayEnabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ce25f253c3502541950874921f3672e, type: 3}
 --- !u!1 &409537226
@@ -1744,28 +1749,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0038c0ae0c66404499ce1bf4ed682c0, type: 3}
---- !u!1 &965191879 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1001077814907650499, guid: 4ce25f253c3502541950874921f3672e,
-    type: 3}
-  m_PrefabInstance: {fileID: 383881801}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &965191882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965191879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0f68a0522420ca4993d6309657ae05b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  blockSparklesVFX: {fileID: 0}
-  timesHit: 0
-  hitSprites: []
 --- !u!1 &1042984374
 GameObject:
   m_ObjectHideFlags: 0
@@ -3558,11 +3541,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7658461064261358237, guid: 69e7b638281e197488f873c71f92140c,
-        type: 3}
-      propertyPath: destinationBlackhole
-      value: 
-      objectReference: {fileID: 1767078183}
     - target: {fileID: 7658461064261358237, guid: 69e7b638281e197488f873c71f92140c,
         type: 3}
       propertyPath: blackhole
